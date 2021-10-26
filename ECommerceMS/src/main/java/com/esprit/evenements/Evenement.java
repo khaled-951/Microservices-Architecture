@@ -23,7 +23,6 @@ public class Evenement implements Serializable {
 	private String titre,description;
 	private String DateDebut;
 	private String DateFin;
-	
 	private String image;
 	public int getId() {
 		return id;
