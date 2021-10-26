@@ -10,4 +10,5 @@ public interface EvenementRepository extends JpaRepository<Evenement, Integer>{
 
 	@Query("select c from Evenement c where c.titre like :titre")
 	public Page<Evenement> evenementByTitle(@Param("titre") String n,Pageable pageable);
+
 }
